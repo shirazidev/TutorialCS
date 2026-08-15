@@ -14,7 +14,7 @@ Console.WriteLine(mondayEnum2);
 
 
 DaysOfWeak mondayEnum3;
-bool parseSucceed =  Enum.TryParse("Hello", out mondayEnum3);
+bool parseSucceed =  Enum.TryParse("Thursday", out mondayEnum3);
 Console.WriteLine($"Enum {(parseSucceed ? "Was Parsed" : "Wasn't parsed")}: {mondayEnum3}");
 
 DaysOfWeak1 mondayEnum4;
@@ -39,7 +39,7 @@ Console.WriteLine($"Valid Enum Value: {validDay}");
 
 
 // Flags
-Permissions readWrite = Permissions.Read | Permissions.Write;
+Permissions readWrite = Permissions.Read | Permissions.Write | Permissions.Execute;
 
 Console.WriteLine($"RW: {readWrite}");
 
