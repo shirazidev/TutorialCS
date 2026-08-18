@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial-Enums", "Tutorial-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialStructs", "TutorialStructs\TutorialStructs.csproj", "{A5DA3F84-5037-4D53-B8AF-E37BD6AF81D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialEquality", "TutorialEquality\TutorialEquality.csproj", "{5D8B2289-4542-4049-ADE7-EED3CC0631ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{A5DA3F84-5037-4D53-B8AF-E37BD6AF81D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DA3F84-5037-4D53-B8AF-E37BD6AF81D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DA3F84-5037-4D53-B8AF-E37BD6AF81D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8B2289-4542-4049-ADE7-EED3CC0631ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8B2289-4542-4049-ADE7-EED3CC0631ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8B2289-4542-4049-ADE7-EED3CC0631ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8B2289-4542-4049-ADE7-EED3CC0631ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
